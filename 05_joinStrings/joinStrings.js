@@ -11,12 +11,12 @@
 
 let firstName = "Carlos"
 let lastName = "Stevenson"
-let fullName = firstName + lastName
+let fullName = `${firstName} ${lastName}`
 let birthYear = 1947
 let thisYear = 1965
 let age = thisYear - birthYear
 
-let greeting = `Hello! My name is ${fullName} and I am ${age} years old`
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
 
 
 
