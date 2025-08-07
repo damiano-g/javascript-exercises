@@ -4,7 +4,9 @@ const sumAll = function(numA, numB) {
         typeof numA != "number" ||
         typeof numB != "number" ||
         !Number.isInteger(numA) ||
-        !Number.isInteger(numB)
+        !Number.isInteger(numB) ||
+        numA < 0 ||
+        numB < 0
     ) return "ERROR";
 
     let minNum = Math.min(numA, numB);
