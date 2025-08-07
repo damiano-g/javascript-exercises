@@ -1,8 +1,8 @@
 const sumAll = function(numA, numB) {
 
     if(
-        typeof numA != "number" ||
-        typeof numB != "number" ||
+        //typeof numA != "number" ||
+        //typeof numB != "number" ||
         !Number.isInteger(numA) ||
         !Number.isInteger(numB) ||
         numA < 0 ||
