@@ -1,9 +1,9 @@
 const reverseString = function(string) {
-    let revString;
+    let revString = '';
     let lastInd = String(string).length-1;
 
     for(let i=0; i <= lastInd; i++){
-        String(revString) += String(string).charAt(lstInd-i);
+        revString += String(string).charAt(lastInd-i);
     }
 
     return revString;
