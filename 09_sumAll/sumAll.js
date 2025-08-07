@@ -9,10 +9,11 @@ const sumAll = function(numA, numB) {
 
     let minNum = Math.min(numA, numB);
     let maxNum = Math.max(numA, numB);
-    let sum = minNum
+    let sum = 0
 
     while(minNum <= maxNum){
-        sum += ++minNum
+        sum += minNum;
+        minNum++;
     }
 
     return sum;
